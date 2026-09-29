@@ -100,7 +100,7 @@ SUPABASE_ANON_KEY=your-supabase-anon-key
 SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
 
 GEMINI_API_KEY=your-google-gemini-api-key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-2.5-flash.
 ```
 
 > **Note**: In development or demo mode before API keys are added, GymGenie includes an intelligent fallback generator and 1-click Demo Athlete mode so that all features, workout generation, form cues, and session logging work immediately!
