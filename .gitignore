@@ -1,0 +1,74 @@
+# ========================================================================
+# GymGenie AI - Git Ignore Configuration
+# ========================================================================
+
+# 1. Environment Variables & Secret Credentials (NEVER commit to GitHub)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+client/.env
+server/.env
+*.pem
+*.key
+*.cert
+
+# 2. Dependency Directories
+node_modules/
+client/node_modules/
+server/node_modules/
+.pnp
+.pnp.js
+
+# 3. Production Build Artifacts
+dist/
+dist-ssr/
+client/dist/
+server/dist/
+build/
+out/
+*.tsbuildinfo
+
+# 4. Vite & Bundler Caches
+.vite/
+client/.vite/
+.cache/
+.parcel-cache/
+
+# 5. Runtime Logs & Debug Reports
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 6. Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# 7. IDE & Editor Metadata
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# 8. Temporary & Scratch Files
+tmp/
+temp/
+scratch/
